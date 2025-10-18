@@ -107,9 +107,10 @@ Continuously reads button state and sets LED accordingly, with a 100 ms delay.
 1_push_button_input/
 ├── main/
 │   └── 1_push_button_input.c
+|   └── README.md
 ├── CMakeLists.txt
 ├── sdkconfig
-└── README.md
+
 ```
 
 ---
