@@ -93,12 +93,13 @@ Continuously toggles LED ON and OFF every second.
 
 ## 🧱 File Structure
 ```
-esp32-blinking-led/
+0_blinking_led/
 ├── main/
 │   └── 0_blinking_led.c
+|   └── README.md
 ├── CMakeLists.txt
 ├── sdkconfig
-└── README.md
+
 ```
 
 ---
@@ -107,8 +108,8 @@ esp32-blinking-led/
 
 ```bash
 # 1️⃣ Clone this repo
-git clone https://github.com/sadarshan/esp32-blinking-led.git
-cd esp32-blinking-led
+git clone https://github.com/sadarshan/learning_esp32.git
+cd learning_esp32/0_blinking_led
 
 # 2️⃣ Set target chip
 idf.py set-target esp32c6
@@ -161,12 +162,6 @@ Try extending this basic example:
 
 ---
 
-## 📜 License
-
-This project is released under the **MIT License**.  
-You’re free to use, modify, and distribute — just credit the author.
-
----
 
 > **Made with ❤️ by [Darshan Savaliya](https://github.com/sadarshan)**  
 > *ESP32-C6 | FreeRTOS | Embedded C | 2025*
