@@ -104,7 +104,7 @@ Continuously reads button state and sets LED accordingly, with a 100 ms delay.
 
 ## 🧱 File Structure
 ```
-esp32-push-button-led/
+1_push_button_input/
 ├── main/
 │   └── 1_push_button_input.c
 ├── CMakeLists.txt
@@ -118,8 +118,8 @@ esp32-push-button-led/
 
 ```bash
 # 1️⃣ Clone the repo
-git clone https://github.com/sadarshan/esp32-push-button-led.git
-cd esp32-push-button-led
+git clone https://github.com/sadarshan/learning_esp32.git
+cd learning_esp32/1_push_button_input
 
 # 2️⃣ Set target chip
 idf.py set-target esp32c6
@@ -170,11 +170,6 @@ Button is released; setting GPIO pin 2 to low
 - ⏱ Implement button debounce using software timers  
 - 🔘 Use button press duration to control LED behavior (short vs long press)  
 
----
-
-## 📜 License
-
-Released under **MIT License** — free to use, modify, and distribute. Credit the author.
 
 ---
 
